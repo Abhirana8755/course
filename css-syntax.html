@@ -27,6 +27,15 @@
 			background-color: green;
 			opacity: .7	;
 		}
+		p.big {
+			color: red;
+		}
+		article > p {
+			font-size: 30px;
+		}
+		article p {
+			color: green;
+		}
 	</style>
 </head>
 <body>
@@ -89,5 +98,39 @@
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	</div>
+	<p class="big">
+		big Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<p class="big">
+		Check
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<article>
+		<p>
+			Child selector 
+		</p>
+		<div>not affected
+			<p>not affected</p></div>
+		<p>Selected</p>
+	</article>
+	<br>
+	<article>
+		<p>
+			descendant selector 
+		</p>
+		<div>not affected
+			<p>not affected</p></div>
+		<p>Selected</p>
+	</article>
 </body>
 </html>
