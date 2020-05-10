@@ -1,0 +1,28 @@
+a:link , a:visited {
+text-decoration: none;
+background-color: green;
+display: block;
+width: 200px;
+margin-bottom: 1px;
+color: black;
+border: 1px solid blue;
+}
+header li {
+	list-style: none;
+}
+a:hover , a:active {
+	background-color: red;
+	color: purple;
+}
+header li:nth-child(2) {
+font-size: 24px;
+
+}
+section div:nth-child(odd) {
+			background-color: grey;
+		}
+		section div:nth-child(even):hover {
+			background-color: green;
+			cursor: pointer;
+
+		}
